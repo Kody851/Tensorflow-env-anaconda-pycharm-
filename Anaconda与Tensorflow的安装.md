@@ -5,8 +5,8 @@
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/ 回车<br>
 conda config --set show_channel_urls yes 回车<br>
 # 2、配置Anaconda
-打开Anaconda Prompt
-依次点击：开始--所有程序--Anaconda这个窗口和doc窗口一样的，输入命令就可以控制和配置python，最常用的是conda命令，这个pip的用法一样，此软件都集成了，你可以直接用，点开的话如下图：
+&nbsp;　　打开Anaconda Prompt
+&nbsp;　　依次点击：开始--所有程序--Anaconda这个窗口和doc窗口一样的，输入命令就可以控制和配置python，最常用的是conda命令，这个pip的用法一样，此软件都集成了，你可以直接用，点开的话如下图：
  
 然后你可以使用conda命令进行一些包的安装和更新
 conda list
