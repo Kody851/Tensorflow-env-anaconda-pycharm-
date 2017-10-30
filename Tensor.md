@@ -1,4 +1,4 @@
-#1、安装 Anaconda(电脑为win7 64bit)
+# 1、安装 Anaconda(电脑为win7 64bit)
 
 下载：[https://www.continuum.io/downloads，我用的是历史版本Anaconda3 4.2.0](https://www.continuum.io/downloads，我用的是历史版本Anaconda3%204.2.0)（支持Python 3.5.3）。这是因为最新的Anaconda3 4.3.1默认安装的是python3.6.0, 而Tensorflow 对python3.6的支持还不够好。另外，目前Tensorflow还不支持windows系统下的python2.7。
 
@@ -10,7 +10,7 @@ condaconfig --add channels <https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/f
 
 condaconfig --set show_channel_urls yes回车
 
-#2、配置Anaconda
+# 2、配置Anaconda
 
 打开Anaconda Prompt
 
@@ -32,7 +32,7 @@ conda install numpy
 
  
 
-#3、安装TensorFlow
+# 3、安装TensorFlow
 
 继续打开Anaconda Prompt，输入：
 
@@ -54,7 +54,7 @@ pip install--ignore-installed –upgrade <https://storage.googleapis.com/tensorf
 
  
 
-#4、测试
+# 4、测试
 
 打开anaconda navigator，
 
@@ -90,7 +90,7 @@ sub.eval()
 
  
 
-#5、关闭
+# 5、关闭
 
 当你不用 TensorFlow 的时候,关闭环境:
 
