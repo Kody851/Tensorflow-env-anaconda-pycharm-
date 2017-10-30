@@ -1,9 +1,10 @@
 # 1、安装 Anaconda(电脑为win7 64bit)
- 下载：https://www.continuum.io/downloads， 我用的是历史版本Anaconda3 4.2.0（支持Python 3.5.3）。这是因为最新的Anaconda3 4.3.1默认安装的是python3.6.0, 而Tensorflow 对python3.6的支持还不够好。另外，目前Tensorflow还不支持windows系统下的python2.7。<br>
+ 
+ 下载：https://www.continuum.io/downloads ， 我用的是历史版本Anaconda3 4.2.0（支持Python 3.5.3）。这是因为最新的Anaconda3 4.3.1默认安装的是python3.6.0, 而Tensorflow 对python3.6的支持还不够好。另外，目前Tensorflow还不支持windows系统下的python2.7。<br>
  安装完以后，从开始菜单打开Anaconda Prompt，输入python，若显示python版本信息，则安装成功。<br>
 接着，输入清华的仓库镜像，更新包下载速度更快：<br>
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/回车<br>
-conda config --set show_channel_urls yes回车<br>
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/ 回车<br>
+conda config --set show_channel_urls yes 回车<br>
 # 2、配置Anaconda
 打开Anaconda Prompt
 依次点击：开始--所有程序--Anaconda这个窗口和doc窗口一样的，输入命令就可以控制和配置python，最常用的是conda命令，这个pip的用法一样，此软件都集成了，你可以直接用，点开的话如下图：
